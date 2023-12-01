@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgba(143,143,143,1) 0%, rgba(255,255,255,1) 100%);
+    min-height: 100vh; 
+}
+
+.login{
+    background-color: #472468;
+    position: absolute;
+    top: 30%;
+    left:40%;
+    max-width: 50%; 
+    max-height: 90%; 
+    margin: 10%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 30px;
+    color:white;
+    border: 10%;
+    box-shadow: 7px -7px #ffB059;
+    
+}
+
+.inputLogin{
+    padding: 5px;
+    border: 2px groove #ffB059;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+
+.buttonLogin{
+    background-color: #ffB059;
+    border: 2px groove #ffB059;
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;    
+    margin-top:5%;
+}
+
+button:hover{
+    background-color: #fdc384;
+    cursor: pointer;
+}
+
+.tc-yy{
+    width: 25%;
+    padding: 2%;
+    float: left;
+    margin: 2%;
+}
+
+.logo-yyt-log{
+    width: 10%;
+    height: 10%;
+}
+
+div > label {
+    display: block;
+    margin-top:10%;
+}
+.titulo{
+    color: #ffB059;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+.logo-yyt-logo-login{
+    width: 50%;
+}
+
+.logo-yyt-logo-lo{
+    width: 100%;
+    text-align: center;
+}
+.loginHref{
+    color: #ffB059;
+}
